@@ -21,7 +21,7 @@ This way we can use the "divide and conquer" approach.
 
 Modular sections we can apply the divide and conquer approach to: 
 
-- unit movement
+- unit movement / combat
 - building
 - multiplayer
 
