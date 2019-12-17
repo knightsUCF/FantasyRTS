@@ -19,3 +19,12 @@ Once we finish unit movement, then we should focus on a modular way of working o
 
 This way we can use the "divide and conquer" approach.
 
+Modular sections we can apply the divide and conquer approach to: 
+
+- unit movement
+- building
+- multiplayer
+
+
+
+
