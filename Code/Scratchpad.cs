@@ -18,6 +18,24 @@ And what if we are just stuck by obstacles? Well we can always fight the obstacl
 So go through the states, and determined, which action states are allowed / disallowed, this should be one of the final parts here before moving on to code
 
 
+well we could do a crude way, where we always allow attacking within the vicinity, let's just go with this one to simply
+
+so once we set up the bool perhaps we could do something like:
+
+
+switch(state):
+
+    case State.X:
+        if (bool allowed) Action();
+
+
+By why would we switch to this state, perhaps the control flow will be set in an update method
+
+
+if (bool allowed) state = State.x;
+
+if (acquireEnemiesWithinZoneAllowed && someOtherCondition) state = State.Pursue;
+
 
 // S T A T E  M A C H I N E ////////////////////////////////////////////////////////////////
 
@@ -48,9 +66,6 @@ BIG PROBLEM HERE, the difference between moving somewhere to fight, and moving a
 
 so as long as we are moving don't attack, we want to go the mouse clicks location no matter, what, unless of course enemies block our way
 then we will have to fight, but how to implement this?
-
-well we could do a crude way, where we always allow attacking within the vicinity, let's just go with this one to simply
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
