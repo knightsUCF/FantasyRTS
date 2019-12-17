@@ -26,5 +26,14 @@ Modular sections we can apply the divide and conquer approach to:
 - multiplayer
 
 
+# Dynamic Formations
+
+(probably will not be in MVP)
+
+https://www.youtube.com/watch?v=9hsxjfUqPcE
+
+
+
+
 
 
