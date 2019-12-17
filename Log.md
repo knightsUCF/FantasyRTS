@@ -14,3 +14,8 @@ Here are the things we want to take care of:
 
 - getting the Character.cs class ready to take care of all unit cases, perhaps we will have a switch method based on the unit type, since different types will have different animations, and we can reference a number of different animators for special use cases, this way we can be a little cleaner than inheritance
 
+
+Once we finish unit movement, then we should focus on a modular way of working on the building structures, especially building requirements.
+
+This way we can use the "divide and conquer" approach.
+
