@@ -1,6 +1,9 @@
 # Getting the Basic Unit Movement Correct
 
-So we are going to just focus on getting the units working correctly. 
+So we are going to just focus on getting the units working correctly. This goes along with the John Romero approach of: 
+
+1. no prototypes
+2. build on a solid foundation
 
 Here are the things we want to take care of:
 
